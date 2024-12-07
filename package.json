@@ -1,0 +1,15 @@
+{
+  "name": "nevo.network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "glob": "^10.0.0",
+    "solc": "^0.8.28"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.17"
+  }
+}
