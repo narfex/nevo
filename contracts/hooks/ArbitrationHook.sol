@@ -2,11 +2,10 @@
 pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@uniswap/v4-core/src/interfaces/IHooks.sol";
+import "../lib/v4-core/src/interfaces/IHooks.sol";
 
 
 /// @title Arbitration Hook for Narfex P2P service
-/// @author Danil Sakhinov
 /// @dev Includes hook logic to enforce lawyer availability and activity in P2P transactions
 contract ArbitrationHook is Ownable, IHooks {
     struct Lawyer {
